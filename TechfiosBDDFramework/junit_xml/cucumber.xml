@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="25.839933">
+<testcase classname="service features" name="service test scenario" time="9.142301">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When title of login page is Techfios........................................passed
+Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
+And user clik on login button...............................................passed
+Then user is on home page...................................................passed
+Then user click on product & service page...................................passed
+Then user move on new service...............................................passed
+And user enters data "Alaptop1" and "500" and "101".........................passed
+Then browser is close.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="service features" name="service test scenario 2" time="8.294352">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When title of login page is Techfios........................................passed
+Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
+And user clik on login button...............................................passed
+Then user is on home page...................................................passed
+Then user click on product & service page...................................passed
+Then user move on new service...............................................passed
+And user enters data "Alaptop2" and "650" and "102".........................passed
+Then browser is close.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="service features" name="service test scenario 3" time="8.40328">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When title of login page is Techfios........................................passed
+Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
+And user clik on login button...............................................passed
+Then user is on home page...................................................passed
+Then user click on product & service page...................................passed
+Then user move on new service...............................................passed
+And user enters data "Alaptop3" and "700" and "103".........................passed
+Then browser is close.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

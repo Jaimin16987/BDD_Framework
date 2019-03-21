@@ -1,0 +1,465 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "service test scenario",
+        "description": "",
+        "id": "service-features;service-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3621617898,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10232281,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Techfios",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175545953,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techfiosdemo@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1254427306,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clik on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clik_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6910452,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81141657,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on product \u0026 service page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_product_service_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 545831676,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user move on new service",
+            "match": {
+              "location": "LoginStepDefinition.user_move_on_new_service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2817053185,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters data \"Alaptop1\" and \"500\" and \"101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alaptop1",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 33
+                },
+                {
+                  "val": "101",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629541041,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "browser is close",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "service test scenario",
+        "description": "",
+        "id": "service-features;service-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2891526510,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6974710,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Techfios",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165936193,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techfiosdemo@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1169000480,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clik on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clik_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12217051,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92446772,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on product \u0026 service page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_product_service_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 523587451,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user move on new service",
+            "match": {
+              "location": "LoginStepDefinition.user_move_on_new_service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2806164968,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters data \"Alaptop2\" and \"650\" and \"102\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alaptop2",
+                  "offset": 18
+                },
+                {
+                  "val": "650",
+                  "offset": 33
+                },
+                {
+                  "val": "102",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626498344,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "browser is close",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "service test scenario",
+        "description": "",
+        "id": "service-features;service-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992229532,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6340365,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Techfios",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157460441,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techfiosdemo@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1153149055,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clik on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clik_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11805806,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79748051,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on product \u0026 service page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_product_service_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 547655545,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user move on new service",
+            "match": {
+              "location": "LoginStepDefinition.user_move_on_new_service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2818420574,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters data \"Alaptop3\" and \"700\" and \"103\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alaptop3",
+                  "offset": 18
+                },
+                {
+                  "val": "700",
+                  "offset": 33
+                },
+                {
+                  "val": "103",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636470514,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "browser is close",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "service features",
+    "description": "",
+    "id": "service-features",
+    "keyword": "Feature",
+    "uri": "C:/Users/patel/eclipse-workspace/TechfiosBDDFramework/src/main/java/features/service.feature"
+  }
+]
