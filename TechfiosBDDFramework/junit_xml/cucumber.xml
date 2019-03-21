@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="25.839933">
-<testcase classname="service features" name="service test scenario" time="9.142301">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.641188">
+<testcase classname="service features" name="service test scenario" time="9.638988">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is Techfios........................................passed
 Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
@@ -11,7 +11,7 @@ And user enters data "Alaptop1" and "500" and "101".........................pass
 Then browser is close.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="service features" name="service test scenario 2" time="8.294352">
+<testcase classname="service features" name="service test scenario 2" time="8.652837">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is Techfios........................................passed
 Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
@@ -23,7 +23,7 @@ And user enters data "Alaptop2" and "650" and "102".........................pass
 Then browser is close.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="service features" name="service test scenario 3" time="8.40328">
+<testcase classname="service features" name="service test scenario 3" time="10.349363">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is Techfios........................................passed
 Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
