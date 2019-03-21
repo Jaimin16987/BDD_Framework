@@ -1,2 +1,2 @@
-com\BDDframework\TestRunner.class
+Runner\TestRunner.class
 StepDefinitions\LoginStepDefinition.class
