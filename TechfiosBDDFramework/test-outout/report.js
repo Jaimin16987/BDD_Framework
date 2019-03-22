@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/patel/git/BDD_Framework/TechfiosBDDFramework/src/main/java/features/service.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/patel/git/BDD_Framework/TechfiosBDDFramework/src/main/java/features/serviceMap.feature");
 formatter.feature({
   "line": 1,
   "name": "service features",
@@ -6,13 +6,13 @@ formatter.feature({
   "id": "service-features",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 2,
   "name": "service test scenario",
   "description": "",
   "id": "service-features;service-test-scenario",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 4,
@@ -26,537 +26,150 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "use enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "user clik on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "user click on product \u0026 service page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user move on new service",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "user enters data \"\u003cname\u003e\" and \"\u003csalePrice\u003e\" and \"\u003citemNo\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "browser is close",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 14,
-  "name": "",
-  "description": "",
-  "id": "service-features;service-test-scenario;",
+  "name": "user enters username and password",
   "rows": [
     {
       "cells": [
         "username",
-        "password",
+        "password"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "techfiosdemo@gmail.com",
+        "abc123"
+      ],
+      "line": 8
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "user clik on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user is on home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "user click on product \u0026 service page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "user move on new service",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "user enters service data",
+  "rows": [
+    {
+      "cells": [
         "name",
         "salePrice",
         "itemNo"
       ],
-      "line": 16,
-      "id": "service-features;service-test-scenario;;1"
+      "line": 14
     },
     {
       "cells": [
-        "techfiosdemo@gmail.com",
-        "abc123",
         "Alaptop1",
         "500",
         "101"
       ],
-      "line": 17,
-      "id": "service-features;service-test-scenario;;2"
+      "line": 15
     },
     {
       "cells": [
-        "techfiosdemo@gmail.com",
-        "abc123",
         "Alaptop2",
         "650",
         "102"
       ],
-      "line": 18,
-      "id": "service-features;service-test-scenario;;3"
+      "line": 16
     },
     {
       "cells": [
-        "techfiosdemo@gmail.com",
-        "abc123",
         "Alaptop3",
         "700",
         "103"
       ],
-      "line": 19,
-      "id": "service-features;service-test-scenario;;4"
+      "line": 17
     }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "service test scenario",
-  "description": "",
-  "id": "service-features;service-test-scenario;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "user is on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "title of login page is Techfios",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "user clik on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "user click on product \u0026 service page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user move on new service",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "user enters data \"Alaptop1\" and \"500\" and \"101\"",
-  "matchedColumns": [
-    2,
-    3,
-    4
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
-  "name": "browser is close",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_login_page()"
-});
-formatter.result({
-  "duration": 3755147109,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
-});
-formatter.result({
-  "duration": 9091072,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "techfiosdemo@gmail.com",
-      "offset": 12
-    },
-    {
-      "val": "abc123",
-      "offset": 41
-    }
-  ],
-  "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 190270470,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_clik_on_login_button()"
-});
-formatter.result({
-  "duration": 1373208452,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 16576750,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_click_on_product_service_page()"
-});
-formatter.result({
-  "duration": 82447830,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_move_on_new_service()"
-});
-formatter.result({
-  "duration": 657932006,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Alaptop1",
-      "offset": 18
-    },
-    {
-      "val": "500",
-      "offset": 33
-    },
-    {
-      "val": "101",
-      "offset": 43
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
-});
-formatter.result({
-  "duration": 2917519785,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.browser_is_close()"
-});
-formatter.result({
-  "duration": 636794555,
-  "status": "passed"
-});
-formatter.scenario({
   "line": 18,
-  "name": "service test scenario",
-  "description": "",
-  "id": "service-features;service-test-scenario;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "user is on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "title of login page is Techfios",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "user clik on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "user click on product \u0026 service page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user move on new service",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "user enters data \"Alaptop2\" and \"650\" and \"102\"",
-  "matchedColumns": [
-    2,
-    3,
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
   "name": "browser is close",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_login_page()"
+  "location": "ServiceStepWithMapDefinition.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 3011223375,
+  "duration": 3704307014,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
+  "location": "ServiceStepWithMapDefinition.title_of_login_page_is_Techfios()"
 });
 formatter.result({
-  "duration": 7394175,
+  "duration": 10274429,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "techfiosdemo@gmail.com",
-      "offset": 12
-    },
-    {
-      "val": "abc123",
-      "offset": 41
-    }
-  ],
-  "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
+  "location": "ServiceStepWithMapDefinition.user_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 179904026,
+  "duration": 173416130,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_clik_on_login_button()"
+  "location": "ServiceStepWithMapDefinition.user_clik_on_login_button()"
 });
 formatter.result({
-  "duration": 1273391713,
+  "duration": 1566231176,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_home_page()"
+  "location": "ServiceStepWithMapDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 13135147,
+  "duration": 15697715,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_click_on_product_service_page()"
+  "location": "ServiceStepWithMapDefinition.user_click_on_product_service_page()"
 });
 formatter.result({
-  "duration": 79540331,
+  "duration": 98505897,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_move_on_new_service()"
+  "location": "ServiceStepWithMapDefinition.user_move_on_new_service()"
 });
 formatter.result({
-  "duration": 562369591,
+  "duration": 641121361,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Alaptop2",
-      "offset": 18
-    },
-    {
-      "val": "650",
-      "offset": 33
-    },
-    {
-      "val": "102",
-      "offset": 43
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
+  "location": "ServiceStepWithMapDefinition.user_enters_data(DataTable)"
 });
 formatter.result({
-  "duration": 2890809458,
+  "duration": 2129329697,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.browser_is_close()"
+  "location": "ServiceStepWithMapDefinition.browser_is_close()"
 });
 formatter.result({
-  "duration": 635068871,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 19,
-  "name": "service test scenario",
-  "description": "",
-  "id": "service-features;service-test-scenario;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "user is on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "title of login page is Techfios",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "use enters \"techfiosdemo@gmail.com\" and \"abc123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "user clik on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "user click on product \u0026 service page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user move on new service",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "user enters data \"Alaptop3\" and \"700\" and \"103\"",
-  "matchedColumns": [
-    2,
-    3,
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "browser is close",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_login_page()"
-});
-formatter.result({
-  "duration": 2928655256,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.title_of_login_page_is_Techfios()"
-});
-formatter.result({
-  "duration": 6825630,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "techfiosdemo@gmail.com",
-      "offset": 12
-    },
-    {
-      "val": "abc123",
-      "offset": 41
-    }
-  ],
-  "location": "LoginStepDefinition.use_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 168987028,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_clik_on_login_button()"
-});
-formatter.result({
-  "duration": 1424484981,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 13928336,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_click_on_product_service_page()"
-});
-formatter.result({
-  "duration": 100424352,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_move_on_new_service()"
-});
-formatter.result({
-  "duration": 664292415,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Alaptop3",
-      "offset": 18
-    },
-    {
-      "val": "700",
-      "offset": 33
-    },
-    {
-      "val": "103",
-      "offset": 43
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_data_and_and(String,String,String)"
-});
-formatter.result({
-  "duration": 4419142401,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.browser_is_close()"
-});
-formatter.result({
-  "duration": 622622558,
+  "duration": 624165238,
   "status": "passed"
 });
 });

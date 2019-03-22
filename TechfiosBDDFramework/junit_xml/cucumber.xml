@@ -1,37 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.641188">
-<testcase classname="service features" name="service test scenario" time="9.638988">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.963049">
+<testcase classname="service features" name="service test scenario" time="8.963049">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is Techfios........................................passed
-Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
+Then user enters username and password......................................passed
 And user clik on login button...............................................passed
 Then user is on home page...................................................passed
 Then user click on product & service page...................................passed
 Then user move on new service...............................................passed
-And user enters data "Alaptop1" and "500" and "101".........................passed
-Then browser is close.......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="service features" name="service test scenario 2" time="8.652837">
-<system-out><![CDATA[Given user is on login page.................................................passed
-When title of login page is Techfios........................................passed
-Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
-And user clik on login button...............................................passed
-Then user is on home page...................................................passed
-Then user click on product & service page...................................passed
-Then user move on new service...............................................passed
-And user enters data "Alaptop2" and "650" and "102".........................passed
-Then browser is close.......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="service features" name="service test scenario 3" time="10.349363">
-<system-out><![CDATA[Given user is on login page.................................................passed
-When title of login page is Techfios........................................passed
-Then use enters "techfiosdemo@gmail.com" and "abc123".......................passed
-And user clik on login button...............................................passed
-Then user is on home page...................................................passed
-Then user click on product & service page...................................passed
-Then user move on new service...............................................passed
-And user enters data "Alaptop3" and "700" and "103".........................passed
+And user enters service data................................................passed
 Then browser is close.......................................................passed
 ]]></system-out>
 </testcase>
