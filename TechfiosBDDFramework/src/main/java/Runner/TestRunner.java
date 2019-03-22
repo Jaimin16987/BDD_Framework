@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\patel\\git\\BDD_Framework\\TechfiosBDDFramework\\src\\main\\java\\features\\serviceMap.feature", //the path of the feature files
+		features = "C:\\Users\\patel\\git\\BDD_Framework\\TechfiosBDDFramework\\src\\main\\java\\features\\Tagging.feature", //the path of the feature files
 		glue={"StepDefinitions"}, //the path of the step definition files
 		plugin= {"pretty","html:test-outout","json:json_output/Cucumber.json","junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 		monochrome = true, //display the console output in a proper readable format
@@ -20,3 +20,8 @@ import cucumber.api.junit.Cucumber;
 public class TestRunner {
 
 }
+
+
+//ORed : tags = {"@SmokeTest , @RegressionTest"} -- execute all tests tagged as @SmokeTest OR @RegressionTest
+//ANDed : tags = {"@SmokeTest" , "@RegressionTest"} -- execute all tests tagged as @SmokeTest AND @RegressionTest
+// ~ this symbol for skip scenario 
